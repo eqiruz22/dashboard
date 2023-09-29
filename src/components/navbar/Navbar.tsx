@@ -1,10 +1,11 @@
+import React from "react";
 import "./navbar.scss";
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="logo">
-        <img src="logo.svg" alt="" />
+        {/* <img src="logo.svg" alt="" /> */}
         <span>NEXT</span>
       </div>
       <div className="icons">
